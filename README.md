@@ -30,7 +30,7 @@ LogADE leverages both graph neural networks (GNNs) and retrieval-augmented gener
 ```bash
 # Clone the repository
 git clone <repository-url>
-cd LogRAG/saner_logade
+cd LogRAG/
 
 # Create virtual environment
 uv venv --python 3.10
@@ -45,7 +45,7 @@ uv pip install -r requirements.txt
 ```bash
 # Clone the repository
 git clone <repository-url>
-cd LogRAG/saner_logade
+cd LogRAG/
 
 # Create virtual environment
 python -m venv .venv
@@ -73,7 +73,7 @@ pip install -r requirements.txt
 ## Project Structure
 
 ```
-saner_logade/
+logade/
 ├── config.yaml              # Configuration file
 ├── main.py                  # Main execution script
 ├── RAG.py                   # RAG post-processor
