@@ -1,0 +1,24 @@
+# LangChain and plugins
+langchain==0.3.15
+langchain-community==0.3.15
+langchain-openai
+langchain-huggingface==0.1.2
+chromadb==0.4.24
+pydantic==2.11.3
+typing-extensions>=4.6.0
+typing-inspection
+annotated-types>=0.5.0
+pydantic-core>=2.14.6
+
+# Others
+tqdm==4.66.1
+pandas==2.0.3
+numpy==1.24.4
+
+# Graph neural network dependencies
+torch==1.13.1
+torch-geometric==2.2.0
+torch-scatter==2.1.0
+torch-sparse==0.6.18
+networkx>=2.6.3
+scipy==1.10.1
